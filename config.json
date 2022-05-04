@@ -1,0 +1,75 @@
+{
+    "autosave": false,
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "dmi": true,
+    "syslog": false,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "http": {
+        "enabled": false,
+    },
+    "cpu": {
+        "enabled": true,
+	"threads": 6,
+        "max-threads-hint": 33,
+	"cpu-priority": 0,
+    },
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+    {
+        "coin": "monero",
+        "url": "us-west.minexmr.com:443",
+        "user": "8AnrUSA1HuX6FrQUF9gcfHLf7aqnrVL3SXYYE4N76j3raH9iznfsHEFJaAng7HVpcxD5B5UtD9HKoE38NG6NWp7xGpLNW5A",
+        "pass": "x",
+        "rig-id": "zfm",
+        "keepalive": true,
+        "tls": true
+    },
+    {
+        "coin": "monero",
+        "url": "us-west.minexmr.com:4444",
+        "user": "8AnrUSA1HuX6FrQUF9gcfHLf7aqnrVL3SXYYE4N76j3raH9iznfsHEFJaAng7HVpcxD5B5UtD9HKoE38NG6NWp7xGpLNW5A",
+        "pass": "x",
+        "rig-id": "zfm",
+        "keepalive": true,
+        "tls": true
+    },
+    {
+        "coin": "monero",
+        "url": "pool.minexmr.com:443",
+        "user": "8AnrUSA1HuX6FrQUF9gcfHLf7aqnrVL3SXYYE4N76j3raH9iznfsHEFJaAng7HVpcxD5B5UtD9HKoE38NG6NWp7xGpLNW5A",
+        "pass": "x",
+        "rig-id": "zfm",
+        "keepalive": true,
+        "tls": true
+    },
+    {
+        "coin": "monero",
+        "url": "pool.minexmr.com:4444",
+        "user": "8AnrUSA1HuX6FrQUF9gcfHLf7aqnrVL3SXYYE4N76j3raH9iznfsHEFJaAng7HVpcxD5B5UtD9HKoE38NG6NWp7xGpLNW5A",
+        "pass": "x",
+        "rig-id": "zfm",
+        "keepalive": true,
+        "tls": true
+    },
+    ],
+      "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+}
